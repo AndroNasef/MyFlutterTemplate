@@ -1,0 +1,30 @@
+name: template
+description: My New App
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_analytics: ^8.0.2 # Analytics
+  firebase_core: ^1.1.0 # Analytics Core
+  flutter_hooks: ^0.16.0 # For Animations
+  get: ^4.1.4 # State Mangement & Routes & More
+  hive: ^2.0.3 # Database
+  hive_flutter: ^1.0.0 # Database For Flutter
+  path_provider: ^2.0.2 # Get System Paths Like Temp
+  share_plus: ^2.0.1 # Share Any Thing In Any Platform
+  url_launcher: ^6.0.3 # Open Any Web Page In-App Or Browser
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^1.0.0
+
+flutter:
+  uses-material-design: true
