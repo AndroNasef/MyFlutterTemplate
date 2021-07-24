@@ -11,20 +11,36 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  firebase_analytics: ^8.0.2 # Analytics
-  firebase_core: ^1.1.0 # Analytics Core
-  flutter_hooks: ^0.16.0 # For Animations
-  get: ^4.1.4 # State Mangement & Routes & More
-  hive: ^2.0.3 # Database
-  hive_flutter: ^1.0.0 # Database For Flutter
+  firebase_analytics: ^8.2.0 # Analytics
+  firebase_core: ^1.4.0 # Analytics Core
+  flutter_hooks: ^0.18.0 # For Animations
+  get: ^4.2.5 # State Mangement & Routes & More
+  hive: ^2.0.4 # Database
+  hive_flutter: ^1.1.0 # Database For Flutter
   path_provider: ^2.0.2 # Get System Paths Like Temp
-  share_plus: ^2.0.1 # Share Any Thing In Any Platform
-  url_launcher: ^6.0.3 # Open Any Web Page In-App Or Browser
+  share_plus: ^2.1.4 # Share Any Thing In Any Platform
+  url_launcher: ^6.0.9 # Open Any Web Page In-App Or Browser
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  lint: ^1.0.0
+  flutter_launcher_icons: # flutter pub run flutter_launcher_icons:main
+  flutter_native_splash:   # flutter pub run flutter_native_splash:create
+  dapackages:  # flutter pub pub run dapackages:dapackages.dart ./pubspec.yaml
+  lint:
 
 flutter:
   uses-material-design: true
+
+flutter_icons:
+  image_path: "LogoIconPath" # TODO: Add Logo 
+
+
+flutter_native_splash:
+  color: "#42a5f5"
+  #background_image: "assets/background.png"
+  #image: assets/splash.png # TODO: Add The Same Logo
+  #color_dark: "#042a49"
+  #background_image_dark: "assets/dark-background.png"
+  #image_dark: assets/splash-invert.png
+
